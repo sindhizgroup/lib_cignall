@@ -1,0 +1,23 @@
+# To change this license header, choose License Headers in Project Properties.
+# To change this template file, choose Tools | Templates
+# and open the template in the editor.
+
+driver=net.ucanaccess.jdbc.UcanaccessDriver
+#Please change the path of database file accordingly.
+url=jdbc:ucanaccess://C:\\Cignall.ScanNET\\Data\\cigscan.accdb;memory=false;ignoreCase=true
+dbuser=root
+dbpassword=
+
+logging.level.org.springframework.jdbc.core = TRACE
+log4j.logger.org.springframework.jdbc.core = TRACE
+logging.level.org.springframework.web.client = TRACE
+log4j.logger.org.springframework.web.client = TRACE
+storeid=[storeid]
+storename=[store name]
+api.user=[api email address]
+api.password=[api password]
+api.base=https:\/\/backend.merchantpulse.com.au\/api\/
+#Please change timestamp below, format to be kept same
+last.close.cash=2019-07-26T19:04:13.241
+trans.batch.size=100
+trans.last.brec.no=[Please insert the maximum transaction number from trans table]
